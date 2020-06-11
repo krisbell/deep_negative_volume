@@ -1,7 +1,7 @@
 # Deep Negative Volume Segmentation
 
 <p align="center">
-<img src="img/pipeline.eps" alt>
+<img src="img/pipeline.png" alt>
 
 </p>
 <p align="center">

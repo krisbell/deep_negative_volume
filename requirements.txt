@@ -60,7 +60,7 @@ sklearn==0.0
 skorch==0.4.0
 tables==3.4.4
 tensorboardX==1.4
-tensorflow-gpu==1.12.0
+tensorflow-gpu==1.15.2
 tifffile==2020.2.16
 torchsummary==1.5.1
 trimesh==3.2.36

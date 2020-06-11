@@ -27,6 +27,9 @@ To train the models used in the paper, run this command:
 python train.py --config <path_to_config_file>
 ```
 
+where path_to_config_file is the path to a configuration file, which specifies all aspects of the training procedure.
+See e.g. config.txt for example how to specify training a standard V-Net with Dice + Cross-Entropy loss.
+
 ## Evaluation
 
 To evaluate models, run:

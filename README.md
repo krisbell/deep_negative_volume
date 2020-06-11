@@ -30,16 +30,16 @@ python train.py --config <path_to_config_file>
 To evaluate models, run:
 
 ```eval
-python train.py --config <path_to_config_file>
+python eval.py --config <path_to_config_file>
 ```
 
 ## Pre-trained Models
 
 You can download pretrained models here:
-
-- 3D U-Net and V-Net trained on spherical negative volumes https://drive.google.com/mymodel.pth 
-- 3D U-Net,3D U-Net with attention gates, and V-Net trained with different loss function on mandibular condyle https://drive.google.com/mymodel.pth 
-- 3D U-Net,3D U-Net with attention gates, and V-Net trained with different loss function on temporal bone https://drive.google.com/mymodel.pth 
+- Pre-trained V-Net model for object loclization: https://drive.google.com/drive/folders/1qUtlMfNEBMQakJpmGQWiKTrwY59vpbom?usp=sharing
+- 3D U-Net and V-Net for spherical negative volumes segmentation: https://drive.google.com/drive/folders/1-Ctq56kAMF3B24SdLJ_i00zc5Rb1rIze?usp=sharing 
+- 3D U-Net,3D U-Net with attention gates, and V-Net trained with different loss function on mandibular condyle: https://drive.google.com/drive/folders/1uODu_VFmaOmVgWD7GNQ0kjdnZtQRDe7c?usp=sharing
+- 3D U-Net,3D U-Net with attention gates, and V-Net trained with different loss function on temporal bone https://drive.google.com/drive/folders/1hLwS0J09u6Qz5_cpz4a-MyKEmnjeGVh4?usp=sharing
 
 ## Results
 

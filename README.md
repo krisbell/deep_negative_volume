@@ -1,6 +1,12 @@
 # Deep Negative Volume Segmentation
 
-> 📋Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+<p align="center">
+<img src="img/pipeline.eps" alt>
+
+</p>
+<p align="center">
+<em>Sample caption</em>
+</p>
 
 ## Requirements
 
@@ -40,12 +46,12 @@ Our model achieves the following performance on :
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| Object                  | Score  | 3D U-Net | 3D U-Net+Attn. | V-Net CE | V-Net D |  V-Net DCE |
+| ----------------------- |------- | -------- |
+| Mandibular condyle (MC) | Dice   |  91.4%   |  89.8%   |  91.4%   |  91.4%   |  91.4%   |
+|                         | CE     |  0.320   |
+|                         | HD     |  14.7    |
 
-\begin{table}[]
-    \centering
     \caption{Mandibular condyle (MC), temporal bone (TB) and negative volume (NV) segmentation results. Notice that the whole-object 3D segmentation of the manually annotated ``balls'' from Fig.1 need more data to work properly, justifying the development of our automated pipeline which just needs MC and TB masks.}
     \small
     \begin{tabular}{ccccccc} \toprule

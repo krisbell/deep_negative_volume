@@ -1,10 +1,6 @@
 # Deep Negative Volume Segmentation
 
-We propose a new intuitive hybrid strategy for medical 3D image segmentation,
-258 entailing new manual annotation pipeline, localization-based image enhancement, deep learning259
-based segmentation, and surface mesh inflation. The framework extracts “negative volumes” in
-260 complex anatomical structures in an end-to-end manner, which we validated on a head-CT dataset
-261 by segmenting the most complex human joint (the TMJ) together with maxillofacial experts.
+We propose a new intuitive hybrid strategy for medical 3D image segmentation, entailing new manual annotation pipeline, localization-based image enhancement, deep learning based segmentation, and surface mesh inflation. The framework extracts “negative volumes” in complex anatomical structures in an end-to-end manner, which we validated on a head-CT dataset by segmenting the most complex human joint (the TMJ) together with maxillofacial experts.
 
 <p align="center">
 <img src="./img/pipeline.PNG" alt>

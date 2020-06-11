@@ -5,7 +5,9 @@
 
 </p>
 <p align="center">
-<em>Sample caption</em>
+<em>End-to-end pipeline for Deep Negative Volume Segmentation. As an example, we take the most complex object in a human body - temporomandibular joint (TMJ), consisting of the mandibular condyle (MC) and the temporal bone (TB).
+Segmentation of MC and TB are shown as step A and step B, respectively. Step C and step D represent classical image
+enhancement of TB and 3D reconstruction of both bones. The “inflation/clipping” block represented by step E.
 </p>
 
 ## Requirements

@@ -45,4 +45,16 @@ You can download pretrained models here:
 
 ## Results
 
+Table 1. Mandibular condyle (MC), temporal bone (TB) and negative volume (NV) segmentation
+results. Notice that the whole-object 3D segmentation of the manually annotated “balls” from Fig.1
+need more data to work properly, justifying the development of our automated pipeline which just
+needs MC and TB masks.
 
+<p align="center">
+<img src="./img/results.PNG" alt>
+
+</p>
+<p >
+<em>Fig. 2. Rendered regions of the TB (gray) featuring manually annotated negative volume (yellow),
+and a machine-generated one (green). Views: (a) axial, from bottom (b) same, tilted.
+</p>
